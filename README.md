@@ -20,6 +20,12 @@ tippecanoe -z 15 -Z 0 -ps -Bg -o beijing.mbtiles beijing.json beijing_road.json
 
 beijing.json beijing_road.json是两个geojson文件
 ```
+文档说明:
+
+https://www.helplib.com/GitHub/article_117726
+https://my.oschina.net/u/1464512/blog/1631973
+https://www.jianshu.com/p/935ed2e5cb2b
+
 参数说明:
 
 | 参数 | 作用    |
@@ -31,6 +37,8 @@ beijing.json beijing_road.json是两个geojson文件
 | -o  | 输出文件路径|
 
 ## 发布 mbtiles
+
+[MBTiles-Server](https://github.com/bingqixuan/MBTiles-Server)
 
 1. 安装tileserver-gl-light
 ```
